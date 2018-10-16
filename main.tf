@@ -15,7 +15,7 @@ module "application1_app" {
   version = "1.2"
 
   vm_name   = "app1-mid-prod"
-  cpu_count = "2"
+  cpu_count = "4"
   memory    = "2048"
   tag_name  = "Production"
   disk_size = "50"
